@@ -1,0 +1,11 @@
+name: Dependency Audit
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Smoke test
+        run: echo 'dependency audit pipeline ok'
